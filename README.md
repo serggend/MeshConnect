@@ -4,14 +4,14 @@ MeshConnect — клиент для MeshCore. Подключается к сов
 
 ## Скачать
 
-В сборке 60 исправлена читаемость `@упоминаний` в исходящих сообщениях и отображение заголовка подключения при крупном шрифте. Хештеги по-прежнему открывают каналы. Для нового канала приложение предлагает добавление.
+В сборке 61 можно выбрать фото через меню «+» в личном чате или канале. MeshConnect загрузит его на meshpic.org и добавит короткую ссылку в черновик.
 
 | Платформа | Актуальная тестовая сборка |
 | --- | --- |
-| iPhone, iOS 16 и новее | [IPA 0.1.0 (60)](https://github.com/serggend/MeshConnect/releases/download/v0.1.0-build60/meshconnect-iphone-0.1.0-build60-unsigned.ipa) |
-| Android 7.0 и новее | [APK 0.1.0 (60) для ARM64](https://github.com/serggend/MeshConnect/releases/download/v0.1.0-build60/meshconnect-android-0.1.0-build60-arm64-v8a.apk) |
+| iPhone, iOS 16 и новее | [IPA 0.1.0 (61)](https://github.com/serggend/MeshConnect/releases/download/v0.1.0-build61/meshconnect-iphone-0.1.0-build61-unsigned.ipa) |
+| Android 7.0 и новее | [APK 0.1.0 (61) для ARM64](https://github.com/serggend/MeshConnect/releases/download/v0.1.0-build61/meshconnect-android-0.1.0-build61-arm64-v8a.apk) |
 
-В [релизе 60](https://github.com/serggend/MeshConnect/releases/tag/v0.1.0-build60) также есть APK для 32-битных ARM и x86-64, список изменений и контрольные суммы. Предыдущая [сборка 51 для iPhone](https://github.com/serggend/MeshConnect/releases/download/v0.1.0-build51/meshconnect-iphone-0.1.0-build51-unsigned.ipa) доступна в [архиве релизов](https://github.com/serggend/MeshConnect/releases).
+В [релизе 61](https://github.com/serggend/MeshConnect/releases/tag/v0.1.0-build61) также есть APK для 32-битных ARM и x86-64, список изменений и контрольные суммы. Предыдущая [сборка 51 для iPhone](https://github.com/serggend/MeshConnect/releases/download/v0.1.0-build51/meshconnect-iphone-0.1.0-build51-unsigned.ipa) доступна в [архиве релизов](https://github.com/serggend/MeshConnect/releases).
 
 ## Установка на iPhone
 
@@ -69,20 +69,20 @@ IPA предназначена для физического iPhone и публ�
 
 ## Проверка файла
 
-Для сборки 60 SHA-256 всех файлов есть в [SHA256SUMS.txt](https://github.com/serggend/MeshConnect/releases/download/v0.1.0-build60/SHA256SUMS.txt). Для IPA 51 опубликована [отдельная контрольная сумма](https://github.com/serggend/MeshConnect/releases/download/v0.1.0-build51/meshconnect-iphone-0.1.0-build51-unsigned.ipa.sha256).
+Для сборки 61 SHA-256 всех файлов есть в [SHA256SUMS.txt](https://github.com/serggend/MeshConnect/releases/download/v0.1.0-build61/SHA256SUMS.txt). Для IPA 51 опубликована [отдельная контрольная сумма](https://github.com/serggend/MeshConnect/releases/download/v0.1.0-build51/meshconnect-iphone-0.1.0-build51-unsigned.ipa.sha256).
 
 Выполните команду в папке со скачанным файлом и сравните полученное значение с опубликованным.
 
 **macOS, Терминал**
 
 ```sh
-shasum -a 256 meshconnect-iphone-0.1.0-build60-unsigned.ipa
+shasum -a 256 meshconnect-iphone-0.1.0-build61-unsigned.ipa
 ```
 
 **Windows, PowerShell**
 
 ```powershell
-Get-FileHash .\meshconnect-iphone-0.1.0-build60-unsigned.ipa -Algorithm SHA256
+Get-FileHash .\meshconnect-iphone-0.1.0-build61-unsigned.ipa -Algorithm SHA256
 ```
 
 ## Обратная связь
